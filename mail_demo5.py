@@ -7,11 +7,11 @@ import imghdr
 EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 
-contacts = ['tobi@info-mesh.co.uk', 'tobimesh@yaho.com']
+contacts = ['tibnev0e.co.uk', 'tooebve@yoveavqbq.com']
 
 msg = EmailMessage()
 msg['Subject'] = 'Check out the network topolgy'
-msg['From'] = 'tobimesh@gmail.com'
+msg['From'] = 'tov0eqnfg@gmail.com'
 msg['To'] = contacts
 msg.set_content('Image attached...')
 
@@ -30,10 +30,10 @@ for file in files:
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
 
 	# smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-	smtp.login("tobimesh@gmail.com", "letmein")
+	smtp.login("aartwfofgegwfwh@gmail.com", "letmein")
 
 	# smtp.sendmail(SENDER, RECEIVER, msg)
 
 	
-	# smtp.sendmail(EMAIL_ADDRESS, 'tobi@info-mesh.co.uk', msg) 
+	# smtp.sendmail(EMAIL_ADDRESS, 'evpgegbefefwovceo@abv.com', msg) 
 	smtp.send_message(msg)
