@@ -13,7 +13,7 @@ with smtplib.SMTP('localhost', 1025) as smtp:
 	# smtp.ehlo()
 
 	# smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-	# smtp.login("tobimesh@gmail.com", "letmein")
+	# smtp.login("tobbvevh@gmail.com", "letmein")
 
 	subject = 'Grab dinner this weekend?'
 	body = 'How about dinner at 6pm this saturday?'
@@ -24,4 +24,4 @@ with smtplib.SMTP('localhost', 1025) as smtp:
 
 	
 	# smtp.sendmail(EMAIL_ADDRESS, 'tobi@info-mesh.co.uk', msg) 
-	smtp.sendmail('tobimesh@gmail.com', 'tobi@ingfo-mesh.co.uk', msg)
+	smtp.sendmail('tobimesh@gmail.com', 'tohbodbve@mail.com', msg)
