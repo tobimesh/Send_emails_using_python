@@ -9,8 +9,8 @@ EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 
 msg = EmailMessage()
 msg['Subject'] = 'Check out the network topolgy'
-msg['From'] = 'tobimesh@gmail.com'
-msg['To'] = 'tobi@info-mesh.co.uk'
+msg['From'] = 'tobimesh213@gmail.com'
+msg['To'] = 'tobi@infomesh12.co.uk'
 msg.set_content('Image attached...')
 
 
