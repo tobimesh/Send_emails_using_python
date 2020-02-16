@@ -9,8 +9,8 @@ EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 
 msg = EmailMessage()
 msg['Subject'] = 'Check out the network topolgy'
-msg['From'] = 'tobimesh213@gmail.com'
-msg['To'] = 'tobi@infomesh12.co.uk'
+msg['From'] = 'tobpgvovqsh213@gmail.com'
+msg['To'] = 'tobi@inevevesh12.co.uk'
 msg.set_content('Image attached...')
 
 
@@ -29,10 +29,10 @@ for file in files:
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
 
 	# smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-	smtp.login("tobimesh@gmail.com", "letmein")
+	smtp.login("toeobveqmv@gmail.com", "letmein")
 
 	# smtp.sendmail(SENDER, RECEIVER, msg)
 
 	
-	# smtp.sendmail(EMAIL_ADDRESS, 'tobi@info-mesh.co.uk', msg) 
+	# smtp.sendmail(EMAIL_ADDRESS, 'tobi@ievevheev.uk', msg) 
 	smtp.send_message(msg)
