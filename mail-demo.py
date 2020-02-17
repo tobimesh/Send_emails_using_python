@@ -23,5 +23,5 @@ with smtplib.SMTP('localhost', 1025) as smtp:
 	# smtp.sendmail(SENDER, RECEIVER, msg)
 
 	
-	# smtp.sendmail(EMAIL_ADDRESS, 'tobi@info-mesh.co.uk', msg) 
-	smtp.sendmail('tobimesh@gmail.com', 'tohbodbve@mail.com', msg)
+	# smtp.sendmail(EMAIL_ADDRESS, 'tomewioneve@shh.co.uk', msg) 
+	smtp.sendmail('oiswowvsh@gmail.com', 'tohbodbve@mail.com', msg)
